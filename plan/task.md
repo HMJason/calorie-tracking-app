@@ -1,0 +1,21 @@
+# Task List for Calorie Tracking App
+
+- [ ] Project Intialization & Planning <!-- id: 0 -->
+    - [x] Analyze requirements and create implementation plan <!-- id: 1 -->
+    - [ ] Initialize Next.js project structure <!-- id: 2 -->
+    - [ ] Set up minimal design system (CSS variables, fonts, reset) <!-- id: 3 -->
+- [ ] Frontend Implementation: Core Features <!-- id: 4 -->
+    - [ ] Create Layout and Navigation (Sidebar/Navbar) <!-- id: 5 -->
+    - [ ] Implement Image Upload Component (Drag & drop, preview) <!-- id: 6 -->
+    - [ ] Design Dashboard Home (Overview) <!-- id: 7 -->
+- [ ] Frontend Implementation: Analytics <!-- id: 8 -->
+    - [ ] Create Analytics Container Layout <!-- id: 9 -->
+    - [ ] Implement Daily View (Charts/Stats) <!-- id: 10 -->
+    - [ ] Implement Weekly View <!-- id: 11 -->
+    - [ ] Implement Monthly View <!-- id: 12 -->
+    - [ ] Implement Yearly View <!-- id: 13 -->
+- [/] Backend Implementation (Firebase) <!-- id: 14 -->
+    - [x] Create/Select Firebase Project (ID: calorie-tracking-app-b4c7a) <!-- id: 15 -->
+    - [x] Initialize Authentication (Email/Password) <!-- id: 17 -->
+    - [x] Initialize Firestore Database <!-- id: 18 -->
+    - [x] Design Database Schema (Users, Daily Logs) <!-- id: 19 -->

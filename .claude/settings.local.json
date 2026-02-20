@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(where:*)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(powershell -Command \"Get-Command node,npm,npx -ErrorAction SilentlyContinue | Select-Object Name,Source\")",
+      "Bash(cmd /c \"where node\")",
+      "Bash(cmd /c \"where node 2>&1 && node --version 2>&1\")",
+      "Bash(cmd /c node --version)",
+      "Bash(cmd /c \"echo %PATH%\")",
+      "Bash(cmd /c \"node --version\")",
+      "Bash(echo:*)",
+      "Bash(powershell.exe -NoProfile -Command \"node --version; npm --version; npx --version\")",
+      "Bash(powershell.exe -NoProfile -Command \"Get-ChildItem ''C:\\\\Program Files\\\\nodejs'', ''C:\\\\Program Files \\(x86\\)\\\\nodejs'', \"\"$env:APPDATA\\\\npm\"\", \"\"$env:LOCALAPPDATA\\\\Programs\\\\nodejs\"\" -ErrorAction SilentlyContinue | Select-Object FullName\")",
+      "Bash(powershell.exe -NoProfile -Command \"Test-Path ''C:\\\\Program Files\\\\nodejs\\\\node.exe''\")",
+      "Bash(powershell.exe -NoProfile -Command \"Get-ChildItem -Path ''C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App'' -Recurse -File | Where-Object { $_FullName -notmatch ''\\\\plan\\\\'' } | Select-Object -ExpandProperty FullName | Sort-Object\")",
+      "Bash(powershell.exe -NoProfile -Command \"winget --version\")",
+      "Bash(powershell.exe -NoProfile -Command \"winget install --id OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements --silent\")",
+      "Bash(powershell.exe -NoProfile -Command \"& ''C:\\\\Program Files\\\\nodejs\\\\node.exe'' --version; & ''C:\\\\Program Files\\\\nodejs\\\\npm.cmd'' --version\")",
+      "Bash(powershell.exe -NoProfile -Command \"Set-Location ''C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App''; & ''C:\\\\Program Files\\\\nodejs\\\\npm.cmd'' install\")",
+      "Bash(cmd /c \"SET PATH=C:\\\\Program Files\\\\nodejs;%PATH% && cd \"\"C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App\"\" && npm install\")",
+      "Bash(cmd /c \"SET \"\"NODEPATH=C:\\\\Program Files\\\\nodejs\"\" && SET PATH=%NODEPATH%;%PATH% && cd \"\"C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App\"\" && npm install 2>&1\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App\\\\setup.ps1\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -Command \"Set-Location ''C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App''; & ''C:\\\\Program Files\\\\nodejs\\\\npm.cmd'' run dev\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App\\\\start-dev.ps1\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App\\\\install-firebase.ps1\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App\\\\fix-path.ps1\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -Verb RunAs -File \"C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App\\\\fix-system-path.ps1\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App\\\\run-as-admin.ps1\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\Jason Lai\\\\Desktop\\\\Calorie Tracking App\\\\check-path.ps1\")",
+      "Bash(firebase:*)",
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}
